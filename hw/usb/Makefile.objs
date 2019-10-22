@@ -13,6 +13,7 @@ common-obj-$(CONFIG_USB_MUSB) += hcd-musb.o
 # emulated usb devices
 common-obj-$(CONFIG_USB) += dev-hub.o
 common-obj-$(CONFIG_USB) += dev-hid.o
+common-obj-$(CONFIG_USB) += savira-kotigalu-hid.o
 common-obj-$(CONFIG_USB_TABLET_WACOM) += dev-wacom.o
 common-obj-$(CONFIG_USB_STORAGE_BOT)  += dev-storage.o
 common-obj-$(CONFIG_USB_STORAGE_UAS)  += dev-uas.o
